@@ -1,23 +1,27 @@
-What happens when you initialize a repository? Why do you need to do it?
-	
-	You need to initialize a new repository because otherwise a normal directory will not contain a .git sub-directory with the necessary files which track all the information about your project.
+﻿What happens when you initialize a repository? Why do you need to do it?
+    
+    You need to initialize a new repository because otherwise a normal directory will not contain a .git sub-directory with the necessary files which track all the information about your project.
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
-	
-	Staging area is a "place" where the information about which files are going to be committed is placed before it is actually committed.
+    
+    The staging area is a "place" where the information about which files are going to be committed is placed before it is actually committed.
 
 How can you use the staging area to make sure you have one commit per logical change?
 
-	You can check using diff to make sure that you have added to the staging area is the logical change which you want to commit.
+    You can check using diff to make sure that you have added to the staging area is the logical change which you want to commit.
 
 What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 
-	Branches can be useful in situations like adding some new feature that changes radically everything done so far, different versions like the same project but with a different interface. So, branches make easy to switch between versions and keeping things under control.
+    Branches can be useful in situations like adding some new feature that changes radically everything done so far, different versions of the same project but with a different interface. So, branches make easy to switch between versions and keeping things under control.
 
 How do the diagrams help you visualize the branch structure?
 
-	Diagrams can help me to visualize the entire workflow for one project, since it can has different branches with many commits and get confusing to understand.
+    Diagrams can help me to visualize the entire workflow for one project since it can have different branches with many commits and get confusing to understand.
 
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 
-	The result of merging two branches is a new commit. We represent it in the diagram as a new commit with arrows pointing to the previous branches which was merged because it makes all the commits reachable.
+    The result of merging two branches is a new commit. We represent it in the diagram as a new commit with arrows pointing to the previous branches which was merged because it makes all the commits reachable.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+    Git's automatic merging saves time doing the work that would be very tedious of copying lines from different versions in a new version. However, it happens to have conflicts that need to be resolved manually.
