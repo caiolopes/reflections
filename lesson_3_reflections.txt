@@ -9,3 +9,11 @@ Why might you want to always pull changes manually rather than having Git automa
 Describe the differences between forks, clones, and branches. When would you use one instead of another?
 
 	Forks, clones, and branches are ways to add new changes without affecting the existing version. Clone and fork copy an entire repository, but the clone copies it to your local machine, while fork copies it to your GitHub. Branches are means of doing changes in the same repository. I use branches when I want to add a new feature without changing the current version. I use clone whenever I want to edit a repository in my local machine instead of on GitHub website. Finally, I use fork when I want to edit a repository which I do not have access and make it public.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+	Because I can do all your work offline and then, if I do a pull and get new changes in the branch which I was working on, I can merge into my local branch and push it.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+	If I collaborate without using Git or GitHub or any other forms of version control, I would choose some sort of shared folder like Dropbox. But the hardest part would be working in the same part of the project at the same time. It would be hard to avoid some conflicts or confusion. However, it would be a faster and easier solution to use in the case of some of the collaborators does not know how to utilize Git and GitHub.
