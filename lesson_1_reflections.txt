@@ -5,15 +5,20 @@ was introduced?
 
 How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
 
-    Thinking in the long term, it is good to have the history of a file because you can see all the development on that file, how things have changed, and every time you make a change and want to go back you have a backup.
+    Thinking in the long term, it is good to have the history of a file because you can 
+    see all the development on that file, how things have changed, and every time 
+    you make a change and want to go back you have a backup.
 
 What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google docs does?
 
-    I think that the main benefit of needing to commit the changes instead of doing it automatically is that when you do changes you want to test before committing. However, you lose some time doing it manually.
+    I think that the main benefit of needing to commit the changes instead of 
+    doing it automatically is that when you do changes you want to test before committing. 
+    However, you lose some time doing it manually.
 
 Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
 
-    Because git is better for projects which involve many files than google docs, which is for single documents like doc, txt, etc.
+    Because git is better for projects which involve many files than google docs, 
+    which is for single documents like doc, txt, etc.
 
 How can you use the commands git log and git diff to view the history of files?
 

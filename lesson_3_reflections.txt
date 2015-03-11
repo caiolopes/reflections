@@ -1,19 +1,39 @@
 When would you want to use a remote repository rather than keeping all your work local?
 
-	When I need to share this to other people or do a collaborative work. Or even if I just want to have this on cloud to work in different computers keeping everything up-to-date.
+	When I need to share this to other people or do a collaborative work. 
+	Or even if I just want to have this on cloud to work in different computers keeping everything up-to-date.
 
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 
-	Because I can be working on the code and not wanting any change while I am doing it. It can be useful also if there is some bug in the new version, so I can wait until the bug is fixed before pulling.
+	Because I can be working on the code and not wanting any change while I am doing it. 
+	It can be useful also if there is some bug in the new version, so I can wait until the bug is fixed before pulling.
 
 Describe the differences between forks, clones, and branches. When would you use one instead of another?
 
-	Forks, clones, and branches are ways to add new changes without affecting the existing version. Clone and fork copy an entire repository, but the clone copies it to your local machine, while fork copies it to your GitHub. Branches are means of doing changes in the same repository. I use branches when I want to add a new feature without changing the current version. I use clone whenever I want to edit a repository in my local machine instead of on GitHub website. Finally, I use fork when I want to edit a repository which I do not have access and make it public.
+	Forks, clones, and branches are ways to add new changes without affecting the existing version. 
+	Clone and fork copy an entire repository, but the clone copies it to your local machine, 
+	while fork copies it to your GitHub. Branches are means of doing changes in the same repository. 
+	I use branches when I want to add a new feature without changing the current version. 
+	I use clone whenever I want to edit a repository in my local machine instead of on GitHub website. 
+	Finally, I use fork when I want to edit a repository which I do not have access and make it public.
 
 What is the benefit of having a copy of the last known state of the remote stored locally?
 
-	Because I can do all your work offline and then, if I do a pull and get new changes in the branch which I was working on, I can merge into my local branch and push it.
+	Because I can do all your work offline and then, if I do a pull and 
+	get new changes in the branch which I was working on, I can merge into my local branch and push it.
 
 How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 
-	If I collaborate without using Git or GitHub or any other forms of version control, I would choose some sort of shared folder like Dropbox. But the hardest part would be working in the same part of the project at the same time. It would be hard to avoid some conflicts or confusion. However, it would be a faster and easier solution to use in the case of some of the collaborators does not know how to utilize Git and GitHub.
+	If I collaborate without using Git or GitHub or any other forms of version control, 
+	I would choose some sort of shared folder like Dropbox. But the hardest part would be 
+	working in the same part of the project at the same time. 
+	It would be hard to avoid some conflicts or confusion. 
+	However, it would be a faster and easier solution to use in the case of some of 
+	the collaborators does not know how to utilize Git and GitHub.
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+	When I am collaborating with other people, I want to make changes in a separate branch. 
+	In this way, I will keep my co-workers up-to-date using pull requests for the master branch 
+	in order to allow them to review my work before actually merging the changes I made. 
+	So, the master version will be always working correctly.
